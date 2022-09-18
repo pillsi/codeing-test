@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F4F2EB;
+}
+
+// nav
+.nav{
+    margin: 0 auto;
+    margin-top: 23px;
+    padding: 0 100px;
+    .left{
+        float: left;
+        img{
+            height: 85px;
+            cursor: pointer;
+        }
+    }
+    .top{
+        margin-bottom: 22px;
+        display: flex;
+        justify-content:right;
+        .social{
+            margin-right: 90px;
+            border-right: 1px solid rgba(0, 0, 0, 0.46);
+
+        i{
+            color: #A1151A;
+            padding: 0 0 0 22px;
+            cursor: pointer;
+            
+        }
+        i:last-child{
+            padding-right: 37px;
+        }
+        }
+        .login{
+            position: relative;
+            cursor: pointer;
+            i{
+                font-size: 18px;
+                margin-right: 5px;
+                color:rgba(0, 0, 0, 1);
+                cursor: pointer;
+            }
+            span{
+                position: absolute;
+                right: -50px;
+                color: rgba(0, 0, 0, 1);
+                font-size: 18px;
+                font-family: 'IBM Plex Sans', sans-serif;
+            }
+        }
+    }
+
+.list{
+    ul{
+        display: flex;
+        justify-content:right;
+        color: #fff;
+        li{
+            padding: 0 37px 0 0;
+            list-style: none;
+            font-size: 21px;
+            color: black;
+            opacity: 60%;
+            font-family: 'IBM Plex Sans', sans-serif;
+            &:hover{
+                font-weight: 600;
+                cursor: pointer;
+            }
+        }
+        li:last-child{
+            padding-right: 0;
+        }
+      
+    }
+}
+}

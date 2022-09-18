@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F4F2EB;
+}
+.nav {
+  margin: 0 auto;
+  margin-top: 23px;
+  padding: 0 100px;
+}
+.nav .left {
+  float: left;
+}
+.nav .left img {
+  height: 85px;
+  cursor: pointer;
+}
+.nav .top {
+  margin-bottom: 22px;
+  display: flex;
+  justify-content: right;
+}
+.nav .top .social {
+  margin-right: 90px;
+  border-right: 1px solid rgba(0, 0, 0, 0.46);
+}
+.nav .top .social i {
+  color: #A1151A;
+  padding: 0 0 0 22px;
+  cursor: pointer;
+}
+.nav .top .social i:last-child {
+  padding-right: 37px;
+}
+.nav .top .login {
+  position: relative;
+  cursor: pointer;
+}
+.nav .top .login i {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #000000;
+  cursor: pointer;
+}
+.nav .top .login span {
+  position: absolute;
+  right: -50px;
+  color: #000000;
+  font-size: 18px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.nav .list ul {
+  display: flex;
+  justify-content: right;
+  color: #fff;
+}
+.nav .list ul li {
+  padding: 0 37px 0 0;
+  list-style: none;
+  font-size: 21px;
+  color: black;
+  opacity: 60%;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.nav .list ul li:hover {
+  font-weight: 600;
+  cursor: pointer;
+}
+.nav .list ul li:last-child {
+  padding-right: 0;
+}

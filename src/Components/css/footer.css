@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F4F2EB;
+}
+.content {
+  text-align: center;
+  padding: 150px 214px 124px 214px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.content .circle {
+  width: 172px;
+  height: 172px;
+  background-color: antiquewhite;
+  border-radius: 50%;
+}
+.content .left,
+.content .middle,
+.content .right {
+  position: relative;
+}
+.content .left .footerBottle,
+.content .middle .footerBottle,
+.content .right .footerBottle {
+  position: absolute;
+  left: 61px;
+  top: 25px;
+}
+.content .left .footerBox,
+.content .middle .footerBox,
+.content .right .footerBox {
+  position: absolute;
+  left: 43px;
+  top: 53px;
+}
+.content .left .footerGearRed,
+.content .middle .footerGearRed,
+.content .right .footerGearRed {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 30px;
+  top: 55px;
+}
+.content .left .footerGearYellow,
+.content .middle .footerGearYellow,
+.content .right .footerGearYellow {
+  width: 37px;
+  height: 37px;
+  position: absolute;
+  right: 36px;
+  top: 45px;
+}
+.content .left .footerGearRed_sm,
+.content .middle .footerGearRed_sm,
+.content .right .footerGearRed_sm {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  right: 42px;
+  top: 94px;
+}
+.content .left h5,
+.content .middle h5,
+.content .right h5 {
+  margin: 24px 0 10px 0;
+  font-size: 37px;
+  font-family: 'Playfair Display', serif;
+}
+.content .left span,
+.content .middle span,
+.content .right span {
+  color: black;
+  opacity: 51%;
+  font-size: 23px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.content .left span:hover,
+.content .middle span:hover,
+.content .right span:hover {
+  font-weight: 600;
+}
+.content .left .arrow,
+.content .middle .arrow,
+.content .right .arrow {
+  margin-left: 16px;
+}
